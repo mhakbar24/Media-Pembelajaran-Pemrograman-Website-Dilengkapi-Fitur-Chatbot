@@ -82,7 +82,7 @@ class ChatbotActivity : AppCompatActivity() {
     private fun setupGemini() {
         generativeModel = GenerativeModel(
             modelName = "gemini-3-flash-preview",
-            apiKey = "AIzaSyBnnsLd6wsOPfZ-o_RCXKkJ78C6XvEWza0", // <-- Masukkan API Key-mu di sini
+            apiKey = "Masukkan APIkey Kamu", // <-- Masukkan API Key-mu di sini
             systemInstruction = content {
                 text(
                     "Kamu adalah Pak Guru AI yang ramah. Nama siswamu adalah $namaSiswa. " +
