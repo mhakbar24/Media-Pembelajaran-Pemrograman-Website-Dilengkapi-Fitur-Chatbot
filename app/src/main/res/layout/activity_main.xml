@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/backgroundap"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/hibot"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/hi_bot"
+        />
+    <TextView
+        android:id="@+id/hibottext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="17dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hallo , Kamu siap untuk belajar pemrograman, Dengan menyenangkan ?"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lato_black"
+        android:layout_below="@id/hibot"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/thisbener"
+        android:id="@+id/benner"
+        android:layout_below="@id/hibottext"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/atas"
+        android:layout_below="@+id/benner"
+        >
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/botbtn"
+        android:layout_marginRight="30dp"
+        android:id="@+id/bot"
+        />
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/materis"
+            android:id="@+id/materi"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:id="@+id/menubawah"
+        android:layout_below="@id/atas"
+        >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/quizs"
+            android:id="@+id/kuis"
+            />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/profilbtn"
+            />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="end"
+        android:layout_marginRight="15dp"
+        >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/info"
+        android:id="@+id/info"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+

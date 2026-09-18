@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/book"
+        />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Pembelajaran"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

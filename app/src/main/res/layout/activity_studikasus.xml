@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudikasusActivity"
+    android:background="@drawable/bggradiens">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/video"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_below="@+id/video"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/soal"
+            android:textColor="@color/black"
+            android:text="Bagaimana mana menurut kamu dengan video diatas, Apa yang sebaiknya dilakukan?" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama Kamu"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kamu Kelas Apa?"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kelas"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bagaimana Pendapat Kamu?"
+            android:layout_marginTop="230dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/kirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kirim Jawaban Mu"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/Widget.MaterialComponents.Button"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PerawatanActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bggradiens">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/gambar"
+                android:src="@drawable/perawatankomputerbenner">
+            </ImageView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/gambar">
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/lato_black"
+                    android:text="Prosedur Perawatan Perangkat keras komputer "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+                <TextView
+                    android:layout_below="@id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                    android:text="Dalam perawatan komputer terutama perangkat keras sebuah komputer agar tetap baik, maka dibutuhkan prosedur untuk merawat perangkat keras kompuer. Berikut ini beberapa langkah merawat perangkat keras komputer, yiitu: \n"></TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedures">
+                </TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/suplay"
+                    android:layout_gravity="center"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedures1"></TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/pccliang"
+                    android:layout_gravity="center"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedures2"></TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/kuaspc"
+                    android:layout_gravity="center"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedure3"></TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/korekpc"
+                    android:layout_gravity="center"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedure3"></TextView>
+                <ImageView
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:src="@drawable/ram"
+                android:layout_gravity="center"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedure4"></TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/psu"
+                    android:layout_gravity="center"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedure5"></TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/mainboard"
+                    android:layout_gravity="center"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:text="@string/prosedure7"></TextView>
+                <ImageView
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:src="@drawable/kuaskeyboard"
+                    android:layout_gravity="center"></ImageView>
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

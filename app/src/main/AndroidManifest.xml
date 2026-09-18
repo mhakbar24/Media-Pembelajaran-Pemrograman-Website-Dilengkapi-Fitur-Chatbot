@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chatbot"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="34">
+        <activity
+            android:name=".PengembangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizplayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetaMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MateriDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MateriActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KuisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KopetensiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PenggunaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudikasusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TroubleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProsedurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToolskitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerawatansoftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerawatanhardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerawatanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatbotActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".DaftarMateriActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

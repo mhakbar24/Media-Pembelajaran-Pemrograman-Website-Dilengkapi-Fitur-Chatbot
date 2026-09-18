@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerawatanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bggradiens">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/gambar"
+            android:src="@drawable/perawatankomputerbenner">
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/gambar">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:fontFamily="@font/lato_black"
+                android:text="METODE PERAWATAN PERANGKAT KERAS KOMUTER"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <TextView
+                android:layout_below="@id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="Hardware adalah sebuah perangkat keras yang terdapat pada komputer dan bisa disentuh bentuknya, dari sebagian besar komponen hardware dialiri oleh energi listrik. Dan pada umumnya komponen hardware yang ada pada komponen sangat rentan sekali terhadap kerusakan yang diakibatkan oleh benda cair seperti contohnya minyak dan air.
+Seberapa pun tahan dan mahalnya sebuah komputer, harus tetap perlu untuk merawatnya agar tetap awet dan juga tahan lama. Sebelum melakukan perawat an, perlu diketahui jenis-jenis perawatan yang pada perangkat keras komputer. Berikut jenis-jenis perawatan perangkat keras komputer:
+"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_black"
+                android:text="Perawatan Pasif :"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="Perawatan pasif merupakan jenis perawatan komputer yang tidak disertai oleh perbaikan,
+dan pada umumnya perawatan pasif hanyalah mengecek kondisi perangkat dan juga
+membersihkannya. Untuk perawatan pasif sendiri bisa dilakukan secara terjadwal dalam
+melakukan perawatan misalnya dilakukan setahun sekali ataupun sebulan sekali. Seperti
+contoh dalam melakukan perawatan CPU/Prosesor, harus sering di-cek guna menjaga
+kesehatan pada komputer dan selalu mengecek keadaan thermal paste. Jika thermal paste
+sudah dalam keadaan kering maka harus segera diganti agar panas pada prosessor bisa
+berpindah secara sempurna ke heatsink. Dan hal yang sangat mudah di lakukan pada saat
+melakukan pengecekan adalah ketika keyboard berdebu, maka yang dilakukan hanya harus rutin dalam membersihkannya, karena pada saat ada kotoran masuk di dalam bawah tombol keyboard maka tombol keyboard yang berdebu tebal akan menimbulkan macet saat ditekan.
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_black"
+                android:text="Perawatan Aktif :"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="Perawatan aktif merupakan perawatan pada perangkat komputer yang disertai oleh perbaikan, dan biasanya perawatan ini sering dilakukan ketika salah satu perangkat komputer mengalami masalah. Contohnya ketika keyboard sudah macet, pada saat itu baru akan melakukan perawatan. Karna pada dasarnya perawatan aktif akan lebih condong melakukan perbaikan saat komputer mengalami trouble. Untuk melakukan perawatan aktif ini sendiri tidak lah terjadwal, karena saat komputer sudah trouble saja dilakukan perawatan perangkat keras pada komputer."></TextView>
+        </LinearLayout>
+            </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

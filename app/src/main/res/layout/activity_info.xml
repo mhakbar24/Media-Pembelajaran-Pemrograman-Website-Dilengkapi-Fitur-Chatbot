@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="20dp"
+    android:background="#79AE6F">
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_ptik"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#E3F2FD"
+        android:foreground="?android:attr/selectableItemBackground"> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile"
+            />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil Pengembang"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPenggunaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#E8F5E9"
+        android:foreground="?android:attr/selectableItemBackground"> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/book"
+           />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Petunjuk Penggunaan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#388E3C"
+        android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

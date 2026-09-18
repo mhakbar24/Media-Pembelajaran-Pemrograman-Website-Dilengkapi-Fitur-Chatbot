@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PerawatanActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bggradiens">
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:src="@drawable/kuaskeyboard"></ImageView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/gambar">
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/lato_black"
+                    android:text="PERAWATAN HARDWARE"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+                <TextView
+                    android:layout_below="@id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:text="Perawatan hardware adalah perawatan yang dilakukan kepada hardware/ perangkat keras komputer itu sendiri. Itinya perawatan secara hardware adalah perawatan ke bendanya. Misalkita melakukan perawatan hardware sebuah hardisk, caranya kita membersihkan hardisk dari debu-debu yang menempel pada celah-celah konektor. Contoh lagi ketika perawatan hardware pada monitor maka kita membersihkan layar dari debu dan kotoran yang menempel di layar monitor."></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/lato_black"
+                    android:text="Perawatan Sofware "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    ></TextView>
+                <TextView
+                    android:layout_below="@id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:text="Perawatan software adalah perawatan yang dilakukan dengan bantuan software aplikasi,intinya perawtan software tidak bisa dilakukan oleh kita tetapi komputer sendiri yang akan melakukanya. Contoh gampangnya ketika kita merawat hardisk secara software adalah dengan melakukan scandisk, disk cleanup, dik defragmenter, itu semua adalah perawatan secara software, yang tidak bisa kita lakukan, kecuali oleh komputer itu sendiri."></TextView>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

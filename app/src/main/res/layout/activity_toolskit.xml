@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PerawatanActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bggradiens">
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/toolkitkom"></ImageView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/gambar">
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/lato_black"
+                    android:text="Alat kerja perawatan Perangkat Keras Komputer"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+                <TextView
+                    android:layout_below="@id/judul"
+                    android:layout_width="match_parent"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:text="Untuk melakukan perawatan pada perangkat keras kimputer, dibutuhkan beberapa peralatan untuk merawat perangkat keras komputer sebagai berikut.
+\n\n 1) Obeng"></TextView>
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/obong">
+</ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                    android:text="Obeng merupakan peralatan penting yang perlu dipakai untuk melakukan perawatan pada perangkat keras komputer. Karena dengaan alat ini dapat dengan mudah membuka dan melepaskan komponen dalam komputer. Obeng digunakan adalah  set obeng plus dengan minus yang bermagnet.\n2) Senter \n Senter digunakan untuk melakukan perawatan di tempat tertutup atau gelap. Senter juga berguna untuk melihat kabel-kabel kecil, bagian-bagian konektor dan perangkat kecil. \n 3) Kuas\n Kuas berguna sebagai alat untuk membersihkan debu pada perangkat-perangkat komputer seperti motherboard, casing, keyboard dan sebagainya.\n 4) Kain kering atau Tisu\n Kain kering atau tisu digunakan untuk membersihkan kotoran cair yang mungkin terjadi akibat percikan minuman atau tinta yang terdapat pada komponen komputer. \n 5) Cairan Pembersih \nCairan pembersih digunkan untuk membersihkan noda atau kotoran yang susah kering dan melekar seperti pada layar monitor atau tinta pada body printer.\n6) Penyedor debu mini \n Penyedot debu mini ini hampir sama dengan kuas yang digunakan untuk menghilakan debu. Namun penyedot debu ini lebih mudah dan lebih bersih dalam menghilangkan debu dan kotoran. Pada ujung penedot nini ini dilengkapi sikat dengan ukuran yang beragam yang dimaksutkan untuk disesuaikan dengan luas sempit celah-celah pada komponen.
+"></TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/penyedot"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                    android:text="7) CD Cleaning \n CD Cleaner berfungsi untuk membersihkan Head CD Drive atau lensa dengan cara menggosokkan bagian yang berdebu atau kotoran dengan cairan pembersih yang memamfaatkan putaran"></TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/cd"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:fontFamily="@font/font"
+                   android:text="8) Tang \n Jenis tang dalam melakukan perawatan komponen PC adalah tang cucut dan tang kombinasi. Tang Cucut banyak digunakan untuk memotong kabel dan keperluan lainnya\n 9) Cotton bud \n 10) Alkohol\n 11) Penyedot Angin/Udara"
+                    ></TextView>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

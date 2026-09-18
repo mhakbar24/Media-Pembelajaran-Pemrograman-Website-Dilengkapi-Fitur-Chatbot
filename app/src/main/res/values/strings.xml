@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Chatbot</string>
+    <string name="cleaning"><h1><b>Pembersihan Komponen pada PC</b></h1>\n
+        Dalam melakukan pembersihan komponen PC seorang teknisi utama harus mengikuti cara dan prosedur yang dilaksanakan, karena antara komponen satu dengan yang lain berbeda, sehingga dalam pembersihannya memiliki urutan atau aturan tertentu dibawah ini komponen PC yang perlu dilakukan perawatan. \n
+        \n1. Casing \n Beberapa hal yang harus diperhatikan dalam membersihkan casing computer sebagai berikut :\n
+        <ul><li>Pada bagian sudut depan, perlu diperhatikan kabel-kabel yang mudah lepas akibat hentakan, terutaa pada bagian tombol saklar. </li>\n<li>Pada bagian belakang, yang perlu dibersihkan adalah ventilasi atau tempat fan (kipas) karena kipas adalah tempat berkumpulnya agin yang membawa debu/kotoran.
+        </li></ul>\n
+       \n 2. Floppy Drive\n
+        Langkah-langkah pembersihannya sebagai berikut:\n
+       <ul><li>Operasi sistem komputer</li>\n<li>Masukkan disk clearner yang telah diberi cairan pembersih ke drive A.</li>\n<li>Pilih drive A:/ sehingga komputer akan membaca drive A, karena piringandisket diganti dengan kertas tisu yang diberi cairan pembersih, maka head akan tersentuh oleh tisu tersebut sehingga akan membersihkan head dari kotoran debu atau kotoran yang lain.</li></ul>\n
+       \n 3. CD-ROM dan CD-RW\n
+        Langkah-langkah pembersihannya sebagai berikut:\n
+        <li>Nyalakan komputer</li>\n
+        <li>Setelah itu masukkkan CD Cleaner, CD Cleaner berputar dengan sikat atau sirip yang melekat pada disk akan menyikat opic atau lensa pada CD-ROM atau CD-RW secara otomatis.</li>\n
+        \n4.VGA Card\n
+        <p>VGA card atau sering disebut display adapter adalah komponen komputer yang berfungsi untuk mengelolaj grafik untuk ditampilkan ke dalam layar monitor. Masalah yang sering timbul adalam VGA adalah panas yang berlebihan, sehinnga untuk mengurangi panas yang berlebihan perlu diperhatikan headsink dan fan nya. Sebagai perawatannya perlu diperlakukan pembersihan dari debu atau kotoran yang lain. VGA card juga kecil, segingga harus disesuaikan denganukuran fan nya. Selain itu VGA Card sering bermasalah pada fan yang berisik atau berbunyi dengan keras.</p>
+        \n<p>Masalah uni juga dapat disebabkan dudukan fan yang tidak kuat sehingga tidak daat menopang fan dengan baik. Untuk mengatasi hal ini dapat dilakukan dengan membersihkan, dan mengencangkan posisi fan dengan tetapat sesuai dengan posisinya. Sebagai perawatan perlu dilakukan pembersihan dari debu atau kotaran yang lain dalam membersihkannya fan dan head sink cukup dengan kuas kecil harus disesuaikan dengan ukuran fan (kipas). Bisa juga melakuka pengencanga pada posisi fan yang sesuai pada posisinya.</p>
+
+        \n\n5. Memory\n
+        <p>RAM merupakan komponen primer dalam sebuah komputer, RAM bertinda sebagai media penyimpanan sementara apada distem. Besar kecil ny kapasistas RAM tergantung dari kebutuhan sistem yang akan digunakan oleh program. Semakin besar kapasitas RAM maka akan semakin cepat dana stabil program tersebut dijalanka. RAM bermacam-macam jenisnya diantaranya yang masih beredar adalah sebagai berikut: EDO RAM (Banyak dijumpai pada komputer lama dan mulai jarang ditemukan),  SDRAM, DDR SDRAM, dan RDRAM. Antara jenis-jenis tersebut berbeda bentuk fisikdan slot pad motherboard nya. RAM perlu dilakukan perawatan agar selalu bekerja denganoptimal. Gangguan pada RAM terletak pada konektor atau kaki-kakinya, dimana jika RAM sering dilepas dan tersetuh oleh tangan dapat meyebabkan korosi bahkan RAM rusak akibat listrik statis.</p>\n<p>Untuk membersihkan RAM dari korosi akibat sentuhan tangan dapat dilakukan dengan mengunakan cairan pembersih atau cukup dengan karet penghapus dengan cara menggosokkkan pada kaki RAM. Selain itu juga perlu diperhatikan pemasangan pada slot RAM, perlu dipastikan RAM tertanca dengan sempurna karena jika tidak, maka selain tidak terdeteksi oleh sisitem juga dapat mengakibatkan kerusakan RAM. Memersihkan RAM dari korosi dapat digunakan cairan peembersih/karet penghapus dengan menggosokkan pada kaki/pn RAM.</p>\n
+    \n6. Hardisk\n
+        <p>Hard disk merupakan komponen yang penting dalam sebuah komputer , karena sistem operasi dan semua programa beserta data-data tersimpan dalam hardisk. Hard disk merupakan barang yang mudah rusak. Untuk melakukan perawatan dilakukan dari sisi harwere dan sofware. Untuk perawatan hard disk dari sisi hardwere , perlu ditambahkan sebuah fan untuk mengurangi panas pada hard disk. Fan ini sangat direkomendasikan untuk hard disk dengan kecepatan 7200 rpm ke atas. Selain itu perlu diperhatikan pengaturan kabel data agar sirkulasi udara dapat berjalan lancar. Untuk perawatan dari sisi sofware, cukup dengan tool-tool yang telah tersedia ketika menginstal sistem operasi. Tool tersebut meiliputi scandisk, dan disk dafragmenter. Selain tool tersebut juga terdapat tool yang digunakan untuk melakukan low-levelformat. Low level formaat digunakan untuk melakukan konfigurasi ulang pada hard disk meiputi pengaturan head, cylender, dan sector. Low level format merupakan format dari segi fisik. Untuk masing-masing merk hard disk mmiliki programa Quantum menggunakan zerrofill atau zdisk, maxtor dengan mud dan untuk westren digital dengan wd—diag. Scandisk adalah tool yang digunakan untuk memerikasa strukrur file sistem, tebel lokasi file (file allocation table), dan dapat untuk mengetahui ada atau tidaknya bad sector. Scandisk akan berjalan dengan otomatis setiap start jika komputer tidak dimatikan dengan benar atau terjadi kegaggalan listrik. Disk defragmeter adalah tool yang digunakan untuk mengatur struktur atau tata letak file sehingga akan mengurangi faragmentasi sebuah space hard disk.Disk defragmenter perlu dilakukan secara berkala hal ini akan meningkatkan performa sistem dan ruang hard disk.</p>\n
+        \n7. Motherboard\n
+        <p>Motherboard merupakan atau termasuk harwere (komponen yang nyata bisa dilihat). Dimana disana terdapat beberapa slot dan lain sebagainya. Dimana slot itu merupakan latak dari komponen-komponen yang lain seperti RAM, sound card dll. Dan sangat rentang sekali terhadap kotoran misal debu. Debu merupakan partikel kecilseperti tanah yang sangat halus sekali yang tebawa oleh angin. Meskipun sangat kecil ukurannya, tapi apabila dibiarkan terus menerus akan menjadi sebuah masalahyang besaar, misal pengerasan debu sangat menggangu sekali kinerja CPU itu sendiri. Debu jyga menyebabkan suhu yang ada didalam CPU meningkat derastis, sehingga menganggu kinerja CPU/komputer itu sendiri. Sehingga penanganan khusus pada masalah debu ini. Pada Motherboard, debu juga menjadi musuh baginya. Kenapa tidak, seperti yang diutarakan yaitu dapat menigkatkan suhu dan menghambat kinerja kompoenn itu sendiri. Sebelum melakukan perawatan Motherboard, maka terlebih dahulu kita sipakan alat-alat nya, yaitu :</p>\n
+        <li>Kuas</li>\n
+        <li>Tisu/kain halus ini kadang diperlukan kadang tidak </li>\n
+        <li>Penyedot debu mini bisa juga menggunakan kompresor</li>\n
+        Langkah-Langakah : \n
+        <li>Bersihkan seluruh bagian Motherboard dengan kuas</li>\n
+        <li>Setelah itu gunakan penyedot debu mini atau kompresor agar debu yang tersisa bisa hilang. Kompres atau sedot semua bagian Motherboard sampai benar-benar bersih.</li>\n
+        <li>Kain halus digunakan apabila terdapat debu yang sulit dihilangkan yaitu debu/kotoran yang sudah mengering. Caranya yaitu semprotkan kain halus atau tisu dengan cairan pembersih, setalah itu usapkan pada bagian komponen yang terkena debu (Debu yang sudah mengering).</li>\n
+        <li>Setelah semua dikira bersih, kemudian pasang kembali Motherboard kedalam CPU.</li>\n
+        <li>Pasang kembali Card-card seperti RAM dlldan power Supply</li>\n
+        <li>Gunakan Uniterruptible Power Supply (UPS) dan stavolot sebagai pengaman tegangan listrik sehingga tidak terjadinya pengaruh terhadap kinerja mainboard apabila terjadi perubahan tegangan listrik secara tiba-tiba.</li>\n
+        <li>Saat membersihkan agar selalu memperhatikan ada atau tidaknya baut-baut yang tertinggal didalam main board, apabila adasegera angkat dari tempatnya untuk menghindari terjadinya hubungan pendek(korslet)</li>\n
+    </string>
+    <string name="prosedures"><li>Sebisa mungkin tegangan listrik yang dikomsumsi komputer harus stabil. Tegangan listrik yang terlalu rendah dan terlalu tinggi dua-duanya merusak perangkat keras komputer. Oleh karena itu digunkanlah Stabilizer dan UPS untuk menjaga hal tersebut.</li></string>
+    <string name="prosedures1"><li>Hidup matikan komputer sesuai prosedur. Jangan sekali-sekali langsung mencaput kabel listrik komputer pada saat komuter sedang beroperasi. Tindakan ini sangat berbahaa bagi kestabilan Power Suply komputer.</li>\n <li>Komputer harus terhindar dari sengatan matahari secara langsung</li>\n <li>Jangan menaruh gelas dll yang berisi air atau benda cair lainnya demi menghindari siraman benda cair terhadap perangkat keras.</li>\n<li>Hindari memempatkan peralatan yang bersifat/dapat menimbulkan magnet di sekita komputer, karena akan mengacaukan monitor dan merusak perangkat keras internal unit CPU.</li>\n<li>Secara berkala bersihkan bagian komputer dari debu yang melekat dengan mengunakan kuas cat, lap halus dan alat penyedot udara</li></string>
+    <string name="prosedures2"><li>Secara keseluruhan bersihkan permukaan Mainboard dengan mengunakan pompa udara untuk menghilangkan debu. Terutama pada bagian socket memory karena jika socket ini kotor/berdebu maka memory tidak akan bekerja maksimal.</li></string>
+    <string name="prosedure3"><li>Bersihkan heatsink dan fan cooler CPU dengan kuas halus atau pompa udara.</li></string>
+    <string name="prosedure4"><li>Buka memory RAM dengan hati-hati dan bersihkan dengan lap halus terutama pada bagaian kakinya.</li></string>
+    <string name="prosedure5"><li>Buka power suply dengan obeng dan bersihkan dengan hati-hati.</li></string>
+    <string name="prosedure6"><li>Bersihkan semua port ekstrenal yang ada pada Mainboard, terutama port USB</li></string>
+    <string name="prosedure7"><li>Jika anda menggunakan VGA card ad on bersihkan terutama pada bagian heat sink dari debu</li>\n<li>Bersihkan dengan menggunakan kuas halus bagagian permukaan keyboard</li></string>
+    <string name="kopdasar"><li>Menerapkan perawatan perangkat keras komputer</li>\n<li>Melakukan perawatan perangkat keras komputer</li></string>
+    <string name="tjpembelajaran"><li>Menjelaskan jenis-jenis perawatan perangkat keras</li>\n<li>Menentukan cara perawatan perangkat keras komputer</li>\n<li>Mengurutkan langkah-langkah perawatan perangkat keras komputer</li>\n<li>Melakukan perawatan perangkat keras komputer</li></string>
+    <string name="kerusakandikomuter">Contoh kerusakan pada komuter :\n1) Komputer tidak mau hidup\n Cara Mentasi : \n <li>Cek koneksi kabel (dari power outletnya ke tombol power pada PC) </li>\n<li>Cek apakah stabilizer berfungsi atau tidak (jika memakai stabilizer)</li>\n<li>Cek kabel power pada CPU.Jika masih juga tidak mau hidup permasalahanna mungkin terletak pada poer supply atau MB. </li> \n\n 2) Komputer Mau hidup Tetapi Tidak Mau Booting\n Cara mengenali bunyi beb dan mengatasinya:\n <li>Beep 1 kali saja Tanda bahwa kondisi komputer baik</li> \n <li>Beep 1 kali, panjang Terdapat problem di memory</li>\n<li>Beep 1 kali panjang dan 3 kali pendek Kerusakan di VGA card</li>\n<li>Beep 1 kali panjang dan 2 kali pendek Kerusakan di DRAM parity</li>\n<li>Beep terus menerus Kerusakan dimodul memory atau memory video</li>\n<li>Cek dengan menggunakan software dianosa seperti sisoft sandra, PC mark04, PCmark05 dll.</li>\n\n3) Komputer Mau Booting Tapi Selalu “Safe Mode”\n
+Cara Mengatasinya : \n
+<li>Restart kembali komputer Anda</li>\n
+<li>Jika masih trouble intall ulang windows Anda</li>\n
+<li>Jika masih safe mode juga, berarti HD anda bermasalah cek dengan : scan disk</li>\n\n4)Komputer Sering Hang\n
+ Cara Mengatasinya :\n
+<li>Disebabkan software mengalami crash</li>\n
+<li>Tekan ctrl + alt + del >> klik End task pada program yang “Not Responding”
+Tekan tombol restart pada CPU</li>\n
+<li>Disebabkan hardware mengalami konflik (adanya penambahan hardware baru
+Konflik antar hardware sering terjadi pada sistem operasi windows</li>\n
+<li>install ulang windows anda, tetapi yang perlu diingat sebelum reinstall windows anda, lepaskan dulu hardware baru Anda</li>\n
+<li>Jalankan fasilitas “add new“ hardware yang terdapat pada control panel. </li>\n\n5) Keyboard Tidak Dikenali Oleh Kompueter \n
+ Cara mengatasinya :\n
+<li>Cek apakah keyboard anda sudah terpasang dengan benar</li>\n
+<li>Jika sudah tapi masih juga keyboard tidak terdeteksi maka kemungkinan keyboard anda bermasalah</li>\n
+<li>Coba ganti keyboard anda, jika sudah diganti tapi juga masih bermasalah maka. </li>\n
+<li>Kemungkinan besar yang rusak adalah di bagian port keyboard di MB anda. </li>\n
+        <li>Jika memang Sudah di Ganti Keyboard Baru tapi tetap tidak terdeteksi Juga Coba Ganti dengan Keyboard USB dan apabila tidak terdeteksi Juga berarti ada yang salah Pada sitem Windows anda. </li>\n\n6) Mouse tidak dikenali oleh komputer (sama dengan kasus keyboard)\n\n7) Point Mouse Selalu Meleoncat-loncat.\n Cara Mengatasinya :\n<li>Mouse kotor segera di bersihkan (khususnya pada bola mouse)</li>\n\n8) Komputer sering Crash/n
+Cara mengatasinya :\n
+<li>Cek semua posisi kabel, hardwerw, dan juga tanggapan pada casing, cek suhu pada CPU dan juga cek ram, prosesor dan juga VGA. </li>
+\n\n9) Bila prosedur MeherBoard(MB) Tidak Diketahui\n
+Cara mengatasinya:\n
+<li>Buka casing, dan cek CPU anda dan biasana sebuah MB memiliki label prosedur yang sekaligus berisi spesifikasi tipe Mbnya.</li>\n
+<li>Lihat pada manual book</li>\n
+<li>Cari data Mb lewat internet, cocokan ID yang tercetak pada stiker board dengan daftar yang terdapat pada sistus www.fcc.gov/oet/fccid, dan cari daftar nomor ID yang dikeluarkan oleh lembaga perijinan untuk perangkat elektronik di Amerika. </li>\n
+<li>Gunkan sofware analisa, seperti sandara99 dll. </li>
+\n\n10) Lupa passeord BIOS\n
+Cara Mengatasinya :\n
+<li>Cabut batterey cmos pada CPU</li>\n
+<li>Atau dengan cara emncoba menebak bberapa password default untuk beberapa</li>\n
+<li>produsen bios misalkan AMI dan AWARD (contoh : A.M.I, AMI, AMI_SW, ALLY, 589589 dll). </li>\n\n11) Jam dan setting tanggal BIOS Selalu Berubah-Rubah.\n
+Cara mengatasinya :\n
+<li>Batteray cmos sudah tidak berfungsi(mati), ganti dengan batteray yang baru</li>\n\n12) Menambakan perangkat Hardware Baru, Tp Tidak Terdeteksi Oleh BIOS\n
+Cara mengatsinya :\n
+<li>Kemungkinan besar bios anda sudah kuno sehingga tidak dapat mendeteksi hardware yang baru, maka segera update bios anda (bisa download melalui internet, mis :www.windrivers.com).</li>\n\n13) Melacak kerusakan Card Pada MB\n
+Cara mengatasinya :\n
+<li>cobalah denganmencabut dan menancapkan beberapa card pada MB anda</li>\n
+<li>jika booting berhasil maka card anda tidak bermasalah begitu jua sebaliknya</li>\n\n14)	Pasang Processor Baru Tp Tidak Terdeteksi\n
+ Cara mengatasinya :\n
+<li> cek apakah anda sudah memasang processor denan benar</li>\n
+    <li>cek apakah posisi jumper pada processor sudah benar (tentang jumper pada processor bisa anda priksa pada manual booknya).</li>\n\n15) Crash Setelah Memasang RAM Baru
+\n Cara Mengatasinya :\n
+<li>Kemungkinan ram yang anda pasang tidak kompatibel dengan komputer anda (cabut ram tersebut)</li>\n\n16) Menambahkan RAM Tapi Tidak Terdeteksi
+\n Cara Mengatasinya :\n
+<li> Lakukan pengecekan seperti ketika kasus sebelumnya</li>\n
+<li> Pastikan slot yan dipakai sesuai, misalnya : SD RAM memiliki slot yang hampir sama dengan RD RAM tetapi RD RAM, tidak bisa terdeteksi meskipun bisa dipasang pada slot jenis SD RAM.</li>
+        \n\n17) Setelah Menambah RAM Prosesor Komputer Menjadi Semakin Lambat\n
+Cara Mengatasinya :\n
+<li>Perhatikan batas kapasitas ram anda, misalnya ram jenis EDO batas maksimalnya adalah 64 MB, maka ketika dipaksakan untuk ditambah maka komputer anda menjadisemakin lambat.</li>
+\n\n18) Virtual RAM\n
+Cara mengatasinya :\n
+<li>klik kanan icon My computer, pilih propertis, kemudian pilih tab performance dan klik VIRTUAL MEMORY</li>\n
+<li>pilih item let me specify my own virtual memory setting (pilih HD yang akan digunakan sebagai virtual memory) </li>\n
+<li>klok OK. </li>
+\n\n19) Monitor Tidak Mau Nyala \n
+Cara Megatasinya :\n
+<li>pastikan semua kabel power maupun konektor yang berhubungan dengan monitor ok</li>\n
+        <li>pastikan juga pin yang ada pada port VGA masuk dengan sempuran tidak ada yang bengkok apalagi tidak masuk semua/salah satu pin ke port VGA</li>\n
+<li>pastikan juga VGA card anda ok. </li>
+\n\n20) Monitor Menjadi Gelap Saat Loading Windows\n
+Cara Mengatasinya :\n
+<li>Kemungkinan disebabkan karena setup driver untuk monitor tidak tepat(setting Frekuensinya terlalu tinggi) masuk dulu ke dalam kondisi safe mode (tekan F8)</li>\n
+<li>Install ulang driver VGAnya</li>
+\n\n21) Tampilan Tiba-Tiba Rusak Dan Komputer Menjadi Hang/n
+ Cara Mengatasinya :\n
+<li>Dikarenkan suhu (pada va Card) sangat panas</li>
+\n\n22) Ukuran Tampilan monitor Tidak Sesuai Keinginan \n
+Cara Mengatasinya :\n
+<li>Masuk ke display propertis (klik kana semabrang tempat pilih propertis)</li>\n
+<li>Tekan tab setting dan dan atur ukuran tampilan sesuai dengan keinginan (pada screean area)</li>
+\n\n23) Monitor Seperti Berkedip saat digunakan\n
+Cara Mengatasinya :\n
+<li>Masuk ke display propertis (klik kana semabrang tempat pilih propertis)</li>\n
+<li>Tekan tab setting dan klik advance, kemudian klik adapter, pada bagian ini ditampilkan refresh raet yang dininkan. </li>
+\n\n24) Sound Card Baru Tidak terdeteksi\n
+ Cara Mengatasinya :\n
+<li>Crash dengan saounda card yang lama</li>\n
+<li>cek pada manual booknya, apakah soundcard on boardnya perlu dimatikan atau tidak jika hendak menginstall ulang soundcard yan baru (biasanya bisa dimatikan lewat jumper atau bios).</li>
+\n\n25) Komputer yang lambat\n Kemungkinan Penyebabnya:\n
+<li>Memor yang tidak cukup</li>\n
+<li>Hardisk terlalu penuh atau ada virus dalam hardisk</li>\n
+Solusi :\n
+<li>Kurangi isi hardisk</li>\n
+<li>Ganti hardiks dengan yang lebih besar atau scan. </li>
+\n\n26) Baterai Mati Setting BIOS Berubah\n
+Solusi :\n
+<li>Ganti bateray CMOS</li>\n
+<li>Setting kembali BIOS</li>
+\n\n27) Tidak Bisa Booting\n
+Kemungkinan  Penyebabnya :\n
+<li>Cache memori rusak</li>\n
+<li>Memori tidak cocok</li>\n
+<li>Bad Sector pada hardisk track awal</li>
+Solusi :\n
+<li>Disable external cache memori di BIO</li>\n
+<li>Ganti Memori</li>\n
+<li>Instal ulang OS</li>\n
+<li>Partisi ulang HDD</li>
+\n\n28) Timbulnya Suara Beep Pada Komputer\n
+Kemungkinan penyebabnya\n
+<li>Memor ram rusak</li>\n
+<li>Memory tidak cocok</li>\n
+<li>Memori tidakmasuk slot dengan benar</li>\n
+Solusinya : \n
+<li>Periksa kedudukanna memori</li>\n
+<li>Ganti memori</li>\n
+<li>Periksa kembali slot memori</li>
+\n\n29) I/O Disk Error\n
+Kemingkinan penyebabnya :\n
+<li>Sisitem operasi bermasalah</li>
+\nSolusi :\n
+<li>Instal ulang system operasi (OS)</li>
+\n\n30) Tampilan Layar Bergaris-garis\n
+Kemungkinan Penyebabnya :\n
+<li>VGA Card rusak</li>\n
+Solusi \n
+<li>Ganti VGA Card</li>
+</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
